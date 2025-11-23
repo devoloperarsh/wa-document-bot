@@ -1,5 +1,5 @@
 {
-  "version": 22.x,
+  "version": 2,
   "functions": {
     "api/webhook.js": {
       "runtime": "nodejs18.x"
@@ -9,4 +9,5 @@
     { "src": "/webhook", "dest": "/api/webhook.js" }
   ]
 }
+
 
