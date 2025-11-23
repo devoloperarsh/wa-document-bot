@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const VERIFY_TOKEN = process.env.VERIFY_TOKEN || "my_verify_token";
+  const VERIFY_TOKEN = process.env.VERIFY_TOKEN || "arshath0818";
   const WHATSAPP_TOKEN = process.env.WHATSAPP_TOKEN;
   const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID;
   const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
@@ -95,3 +95,4 @@ async function sendMessage(token, phoneId, to, text) {
     }),
   });
 }
+
